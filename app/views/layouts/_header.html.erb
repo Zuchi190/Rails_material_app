@@ -1,0 +1,30 @@
+<header class="py-4 bg-yellow-200 sm:bg-green-300 md:bg-violet-400 lg:bg-orange-400 w-full mt-0">
+<div class="container mx-auto flex justify-between items-center px-8 ">
+
+<h1 class="text-2xl font-bold hover:text-white transition-all duration-300 whitespace-nowrap">Material App</h1>
+
+<div class="hidden md:flex">
+<ul class="flex justify-between  sm:space-x-1 md:space-x-4  items-center whitespace-nowrap">
+<li class="hover:text-white transition-all duration-300 list-none "><%= link_to '材料一覧', '/static_pages/home' %></li>
+<li class="hover:text-white transition-all duration-300"><%= link_to '材料追加', '/static_pages/about' %></li>
+<li class="hover:text-white transition-all duration-300 list-none"><%= link_to 'ログイン', '#' %></li>
+<li class="hover:text-white transition-all duration-300 list-none"><%= link_to 'ログアウト', '#' %></li>
+<li class="text-white px-6 py-2 bg-blue-400 font-bold rounded-lg hover:bg-blue-300"><%= link_to 'お問い合わせ', '#' %></li>
+</ul>
+</div>
+
+<div class="md:hidden">
+  <i class="fa-solid fa-bars"></i>
+</div>
+</div>
+
+<div>
+  <ul class="px-16 py-4 hidden">
+    <li class="px-8 py-2 text-white hover:bg-gray-600 my-4 rounded-md border-b"><a href="#">機能一覧</a></li>
+    <li class="px-8 py-2 text-white hover:bg-gray-600 my-4 rounded-md border-b"><a href="#">料金プラン</a></li>
+    <li class="px-8 py-2 text-white hover:bg-gray-600 my-4 rounded-md border-b"><a href="#">HRとは</a></li>
+    <li class="px-8 py-2 text-white hover:bg-gray-600 my-4 rounded-md border-b"><a href="#">お知らせ</a></li>
+    <li class="px-8 py-2 text-white hover:bg-gray-600 my-4 rounded-md border-b"><a href="#">お問い合わせ</a></li>
+  </ul>
+  </div>
+</header>

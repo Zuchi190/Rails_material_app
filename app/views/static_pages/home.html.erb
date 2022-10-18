@@ -1,5 +1,16 @@
-<div>
-  <h1 class="font-bold text-4xl">StaticPages#home</h1>
-  <p>Find me in app/views/static_pages/home.html.erb</p>
-  <h1>I'am IronMan</h1>
+<div class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+
+  <div class="flex flex-wrap md:flex-nowrap">
+    <div class="md:my-36 lg:ml-20 justify-center md:justify-start max-w-xl flex-wrap flex">
+      <h1 class="text-white font-bold text-5xl text-center md:text-left lg:text-7xl md:text-6xl">TailwindCSSで<br>美しいサイトを<br>作ります
+      </h1>
+      <button class="text-white px-6 py-4 mt-10 bg-blue-400 font-bold rounded-lg hover:bg-blue-300">
+        <i class="fa-solid fa-rocket"></i>
+        <span>もっと見る</span>
+      </button>
+    </div>
+    <div class="md:absolute lg:top-2 lg:right-52 md:w-3/5 w-10/12 mt-12 md:mt-0 right-6 mx-auto -z-10 lg:w-3/6">
+      <%= image_tag 'human.jpg' %>
+    </div>
+  </div>
 </div>
