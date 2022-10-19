@@ -14,3 +14,123 @@
     </div>
   </div>
 </div>
+
+<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+  <section class="w-full">
+    <h2 class="secondary-title">私のポートフォリオ</h2>
+    <p class="section-paragraph">私が作ってきたWebアプリケーションはこちら</p>
+
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6">
+      <%= image_tag 'portfolio1.jpg',class:"w-full h-40 object-cover rounded-md cursor-pointer" %>
+      <%= image_tag 'portfolio2.jpg',class:"w-full h-40 object-cover rounded-md cursor-pointer" %>
+      <%= image_tag 'portfolio3.jpg',class:"w-full h-40 object-cover rounded-md cursor-pointer" %>
+      <%= image_tag 'portfolio4.jpg',class:"w-full h-40 object-cover rounded-md cursor-pointer" %>
+      <%= image_tag 'portfolio5.jpg',class:"w-full h-40 object-cover rounded-md cursor-pointer" %>
+      <%= image_tag 'portfolio6.jpg',class:"w-full h-40 object-cover rounded-md cursor-pointer" %>
+    </div>
+  </section>
+</div>
+
+<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+
+
+  <section class="w-full">
+    <h2 class="secondary-title">スキルスタック</h2>
+    <p class="section-paragraph">以下のプログラミング言語を１年以上扱っています</p>
+
+    <div class="my-16">
+      <div class="w-full border border-purple-300 p-16 lg:px-32 lg:py-20 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap lg:space-x-32 hover:border-yellow-300 transition-all duration-300 cursor-pointer">
+        <div class="mb-6 lg:mb-0 self-center">
+          <i class="fa-brands fa-js text-yellow-300 text-8xl"></i>
+        </div>
+        <div class="text-white text-center flex flex-wrap justify-center lg:text-left lg:block">
+          <h3 class="text-3xl font-semibold">JavsScript</h3>
+          <div class="flex flex-wrap w-full justify-center gap-3 lg:w-auto lg:justify-start mt-6 mb-8">
+          <div class="badge">ウェブサイト制作</div>
+          <div class="badge">フロントエンド開発</div>
+          </div>
+          <p class="text-secondary">JavsScriptエンジニア。普段はReactを使って働いています </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="my-16">
+      <div class="w-full border border-purple-300 p-16 lg:px-32 lg:py-20 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap lg:space-x-32 hover:border-yellow-300 transition-all duration-300 cursor-pointer">
+        <div class="mb-6 lg:mb-0 self-center"> 
+          <i class="fa-brands fa-html5 text-orange-600 text-8xl "></i>
+        </div>
+        <div class="text-white text-center flex flex-wrap justify-center lg:text-left lg:block">
+          <h3 class="text-3xl font-semibold">HTML/CSS</h3>
+          <div class="flex flex-wrap w-full justify-center gap-3 lg:w-auto lg:justify-start mt-6 mb-8">
+          <div class="badge">ウェブサイト制作</div>
+          <div class="badge">フロントエンド開発</div>
+          </div>
+          <p class="text-secondary">JavsScriptエンジニア。普段はReactを使って働いています </p>
+        </div>
+      </div>
+
+    </div>
+    <div class="my-16">
+      <div class="w-full border border-purple-300 p-16 lg:px-32 lg:py-20 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap  lg:space-x-32 hover:border-blue-300 transition-all duration-300 cursor-pointer">
+        <div class="mb-6 lg:mb-0 self-center">
+          <i class="fa-brands fa-python text-blue-300 text-8xl"></i>
+        </div>
+        <div class="text-white text-center flex flex-wrap justify-center lg:text-left lg:block">
+          <h3 class="text-3xl font-semibold">Python</h3>
+          <div class="flex flex-wrap w-full justify-center gap-3 lg:w-auto lg:justify-start mt-6 mb-8">
+          <div class="badge">ウェブサイト制作</div>
+          <div class="badge">フロントエンド開発</div>
+          </div>
+          <p class="text-secondary">JavsScriptエンジニア。普段はReactを使って働いています </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="container mt-48 mb-20 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+
+<section class="w-full">
+    <h2 class="secondary-title">お問合せ</h2>
+    <p class="section-paragraph">私の経歴が気になる方はご一報ください</p>
+
+    <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-16">
+      <div class="space-y-12">
+        <div>
+          <label class="text-white block mb-6 text-xl font-bold">お名前</label>
+          <input type="text" class="w-full border border-inputBorder bg-input px-4 py-4">
+        </div>
+        <div>
+          <label class="text-white block mb-6 text-xl font-bold">メールアドレス</label>
+          <input type="text" class="w-full border border-inputBorder bg-input px-4 py-4">
+        </div>
+        <div>
+          <label class="text-white block mb-6 text-xl font-bold">メッセージ</label>
+          <input type="text" class="w-full border border-inputBorder bg-input px-4 py-4">
+        </div>
+        <button class="text-white px-8 py-3 mt-10 bg-blue-400 font-bold rounded-lg hover:bg-blue-300">
+          送信する
+        </button>
+      </div>
+      <div>
+      <p class="text-secondary">000-1111-2222</p>
+      <a href="mailto:katogen190@gmail.com" class="text-white">katogen190@gmail.com</a>
+
+      <div class="mt-20 space-x-6">
+        <a href="#">
+          <i class="fa-brands fa-twitter text-3xl text-sky-400"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-facebook text-3xl text-sky-400"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-instagram text-3xl text-pink-400"></i>
+        </a>
+      </div>
+      </div>
+    </div>
+    </section>
+    </div>
+  </section>
+
+</div>
