@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
+  get 'users/new'
+  get 'materials/index'
+  get 'materials/new'
   resources :todos
   get 'static_pages/home'
   get 'static_pages/help'
   get 'static_pages/about'
+  get 'users/new'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
